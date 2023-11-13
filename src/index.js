@@ -4,4 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import App from "./components/App"
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-ReactDom.render(<App></App>,document.getElementById('root'));
+ReactDOM.render(
+  <Router>
+    <Route component={App} />
+  </Router>,
+  document.getElementById('root')
+);
