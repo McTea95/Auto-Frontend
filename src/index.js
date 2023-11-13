@@ -1,7 +1,8 @@
-import React from "react"
-import ReactDom from "react-dom"
-import "bootstrap/dist/css/bootstrap.min.css"
-import App from "./components/App"
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import React from "react";
+import ReactDOM from "react-dom";
 
-ReactDom.render(<App></App>,document.getElementById('root'));
+import Einloggen from "./components/kunden"; 
+import "bootstrap/dist/css/bootstrap.min.css";
+
+ReactDOM.render(<Einloggen />, document.getElementById('root'));
+
